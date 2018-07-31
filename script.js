@@ -20,8 +20,8 @@ request.onload = function() {
     	var ecad = document.getElementById("ECAD");
     	busd.textContent = data['BTC']['USD'];
     	bcad.textContent = data['BTC']['CAD'];
-    	eusd.textContent = data['BTC']['USD'];
-    	ecad.textContent = data['BTC']['USD'];
+    	eusd.textContent = data['ETC']['USD'];
+    	ecad.textContent = data['ETC']['USD'];
 	    
     }
 };
